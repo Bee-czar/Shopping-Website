@@ -1,0 +1,55 @@
+.jumbotron{
+	background-color: white;
+	background-image: url("nativeplantsby.bmp");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.nav-item:hover{
+background-color:#BBBBBB;
+}
+
+.card{
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;  
+}
+
+.btn-primary{
+  color:black;
+  background-color: #EEEEEE;
+  border: 2px solid lightgray;
+}
+
+.btn-primary:hover{
+  color:white;
+  background-color: black;
+  border: 2px solid black;
+}
+
+.row{
+  background-color: #EEEEEE;
+}
+
+.col-lg-3{
+  color: white;
+  background-color: black;
+}
+
+@media(max-width:990px){
+    .navbar{
+	background-color: lightblue;
+	}
+}
+
+@media(max-width:600px){
+    .navbar{
+	background-color: lightgreen;
+	}
+}
+
+@media(max-width:400px){
+    .navbar{
+	background-color: lightred
+	}
+}
