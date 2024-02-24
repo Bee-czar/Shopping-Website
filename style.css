@@ -1,12 +1,30 @@
 .jumbotron{
-	background-color: white;
-	background-image: url("nativeplantsby.bmp");
-	background-size: contain;
-	background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  background-image: url("nativeplantsby.bmp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
-.nav-item:hover{
-background-color:#BBBBBB;
+.nav-link{
+  color: #000  !important;
+  background-color: #FFF;
+}
+
+.nav-link:hover{
+  color: #FFF  !important;
+  background-color: #000;
+}
+
+a.footer-link:link{
+  color: #FFF  !important;
+}
+
+a.footer-link:hover{
+  color: #000  !important;
+  background-color: #EEE;
 }
 
 .card{
@@ -37,19 +55,19 @@ background-color:#BBBBBB;
 }
 
 @media(max-width:990px){
-    .navbar{
-	background-color: lightblue;
-	}
+  .navbar{
+      background-color: lightblue;
+  }
 }
 
 @media(max-width:600px){
-    .navbar{
-	background-color: lightgreen;
-	}
+  .navbar{
+    background-color: lightgreen;
+  }
 }
 
 @media(max-width:400px){
-    .navbar{
-	background-color: lightred
-	}
+.navbar{
+    background-color: lightred
+  }
 }
